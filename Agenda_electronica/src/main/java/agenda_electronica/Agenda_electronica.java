@@ -2,7 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.agenda_electronica;
+package agenda_electronica;
+
+import agenda_electronica_igu.Pantalla;
 
 /**
  *
@@ -11,6 +13,8 @@ package com.mycompany.agenda_electronica;
 public class Agenda_electronica {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Pantalla princ = new Pantalla ();
+        princ.setVisible(true);
+        princ.setLocationRelativeTo(null);
     }
 }
